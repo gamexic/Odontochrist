@@ -22,7 +22,8 @@ img {
 }
 h1 {
     font-size: 3.5rem;
-    color: var(--red);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
 h2 {
     font-size: 2.5rem;
@@ -50,6 +51,8 @@ p {
     --other-white: rgb(234, 234, 234);
 }
 
+
+/* Hero Section */
 
 #hero {
     background-image: url(https://scontent.fpiu1-1.fna.fbcdn.net/v/t39.30808-6/310282424_529106852555108_864114877436357299_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8_CT0bIHgykAX_yT57Q&_nc_ht=scontent.fpiu1-1.fna&oh=00_AfDIkuuLl_VtNzEz5Rn20QHcxRRoZIcA4ggOXrk6Z43bmQ&oe=6455759E);
@@ -84,9 +87,77 @@ p {
     text-align: center;
 }
 #hero .hero-container h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     letter-spacing: .1rem;
     color: var(--white);
     margin-bottom: 20px;
     max-width: 300px;
 }
+
+/* End Hero Section */
+
+
+/* Services Section */
+
+.services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.services-container .services-top {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-container .services-bot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-container .services-bot .services-items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+.services-container .services-bot .services-items-container .services-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 1px;
+    background-color: rgb(217, 217, 217);
+    max-width: 450px;
+}
+.services-container .services-bot .services-items-container .services-item .services-item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+}
+.services-container .services-bot .services-items-container .services-item .services-item-img img {
+    object-fit: fill;
+}
+.services-container .services-bot .services-items-container .services-item .services-item-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    margin: 8px 0px;
+}
+
+/* End Services Section */
