@@ -222,3 +222,41 @@ p {
 }
 
 /* End Cases Section */
+
+/* About Section */
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 450px;
+}
+.about-container .about-img {
+    width: 100%;
+    background-color: var(--bluee);
+    margin-bottom: 12px;
+}
+.about-container .about-info-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.about-container .about-info-bot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* End About Section */
