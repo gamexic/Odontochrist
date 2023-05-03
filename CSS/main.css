@@ -187,6 +187,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
 }
 .cases-container .cases-bot .cases-items-container .cases-item {
     width: 100%;
@@ -240,25 +241,28 @@ p {
     background-color: var(--bluee);
     margin-bottom: 12px;
 }
-.about-container .about-info-top {
+.about-container .about-info {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 12px;
-}
-.about-container .about-info-bot {
-    width: 100%;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.about-container .about-info h2 {
+    margin-bottom: 12px;
 }
 
 /* End About Section */
 
 /* Contact Section */
 
+#contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contact-container {
     width: 100%;
     margin-bottom: 20px;
@@ -266,6 +270,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
 }
 .contact-container .contact-top {
     width: 100%;
@@ -374,3 +379,82 @@ p {
 }
 
 /* End Fotter */
+
+/* Media Queries for Tablet */
+
+@media only screen and (min-width: 768px) {
+
+    /* Services Section */
+
+    .services-container .services-bot .services-items-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 100%;
+    }
+    .services-container .services-bot .services-items-container .services-item {
+        width: 50%;
+    }
+    .services-container .services-bot .services-items-container .services-item:nth-child(1),
+    .services-container .services-bot .services-items-container .services-item:nth-child(3),
+    .services-container .services-bot .services-items-container .services-item:nth-child(5) {
+        margin-right: 1px;
+    }
+
+    /* End Services Section */
+
+    /* Cases Section */
+
+    .cases-container .cases-bot .cases-items-container .cases-item {
+        flex-direction: row;
+        max-width: 1200px;
+        height: 100%;
+        background-color: var(--bluee);
+        margin-bottom: 1px;
+    }
+    .cases-container .cases-bot .cases-items-container .cases-item:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+    .cases-container .cases-bot .cases-items-container .cases-item .cases-item-img,
+    .cases-container .cases-bot .cases-items-container .cases-item .cases-item-info {
+        width: 49%;
+    }
+    .cases-container .cases-bot .cases-items-container .cases-item .cases-item-img { 
+        background-color: white;
+        padding: 0px;
+    }
+
+    /* End Cases Section */
+
+    /* About Section */
+
+    .about-container {
+        flex-direction: row-reverse;
+        max-width: 800px;
+    }
+    .about-container .about-img {
+        border-radius: 20px;
+    }
+    .about-container .about-info {
+        margin-right: 12px;
+    }
+
+    /* End About Section */
+
+    /* Contact Section */
+    
+    .contact-container .contact-top {
+        max-width: 900px;
+    }
+    .contact-container .contact-bot .contact-items-container {
+        max-width: 800px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-container .contact-bot .contact-items-container .contact-item {
+        width: 50%;
+    }
+
+    /* End Contact Section */
+}
+
+/* End Media Queries for Tablet */
