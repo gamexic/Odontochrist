@@ -572,12 +572,7 @@ p {
     .cases-container .cases-bot .cases-items-container .cases-item:nth-child(2) {
         flex-direction: row-reverse;
     }
-    .cases-container .cases-bot .cases-items-container .cases-item .cases-item-img,
-    .cases-container .cases-bot .cases-items-container .cases-item .cases-item-info {
-        width: 49%;
-    }
     .cases-container .cases-bot .cases-items-container .cases-item .cases-item-img { 
-        background-color: white;
         padding: 0px;
     }
 
