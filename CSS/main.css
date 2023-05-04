@@ -554,7 +554,9 @@ p {
     }
     .services-container .services-bot .services-items-container .services-item:nth-child(1),
     .services-container .services-bot .services-items-container .services-item:nth-child(3),
-    .services-container .services-bot .services-items-container .services-item:nth-child(5) {
+    .services-container .services-bot .services-items-container .services-item:nth-child(5),
+    .services-container .services-bot .services-items-container .services-item:nth-child(7),
+    .services-container .services-bot .services-items-container .services-item:nth-child(9) {
         margin-right: 1px;
     }
 
