@@ -469,6 +469,10 @@ p {
     border: 1px solid var(--bluee);
     padding: 4px 8px;
 }
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-info p a:hover {
+    color: white;
+    background-color: var(--bluee);
+}
 
 /* End Contact Section */
 
@@ -487,12 +491,16 @@ p {
 #footer .footer-container .schedule {
     margin: 20px;
 }
+#footer .footer-container .schedule h3 {
+    margin-bottom: 12px;
+    color: white;
+}
 #footer .footer-container .schedule p {
     color: white;
     font-size: 1.4rem;
     letter-spacing: .1rem;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 #footer .footer-container .social-icons {
     width: 100%;
