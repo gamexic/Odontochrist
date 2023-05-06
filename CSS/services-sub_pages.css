@@ -243,6 +243,29 @@ p {
     align-items: center;
     width: 100%;
 }
+.specialties-container {
+    background-image: url(https://www.higienistasvitis.com/wp-content/uploads/2016/08/HABITOS-DE-HIGIENE-ORAL-EN-PACIENTES-CON-ORTODONCIA_A_shutterstock_417290032.jpg);
+	background-size: contain;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+}
+.specialties-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
 .specialties-container .all_specialties-container {
     background-color: var(--bluee);
     display: flex;
