@@ -81,7 +81,7 @@ function ortodoncia() {
 };
 function profilaxis() {
 	specialties_image.style.backgroundImage = "url(https://clinicabarreiro.es/wp-content/uploads/2016/11/profilaxis-dental.jpg)";
-	specialty_title.innerText = "Profilaxis";
+	specialty_title.innerText = "Profilaxis Dental";
 	specialty_image.src = "../IMG/profilaxis.jpeg";
 	specialty_FQ.innerText = "¿Qué es la Profilaxis Dental?";
 	specialty_FI.innerText = "Lorem10";
@@ -90,7 +90,7 @@ function profilaxis() {
 };
 function curaciones() {
 	specialties_image.style.backgroundImage = "url(https://static.wixstatic.com/media/a758a3_e378c39709ad44ccaaff76aabb357b09~mv2.png/v1/fill/w_740,h_650,al_c,q_95/a758a3_e378c39709ad44ccaaff76aabb357b09~mv2.webp)";
-	specialty_title.innerText = "Curaciones Dentales";
+	specialty_title.innerText = "Curación Dental";
 	specialty_image.src = "../IMG/curaciones.jpeg";
 	specialty_FQ.innerText = "¿Qué es la Curación Dental?";
 	specialty_FI.innerText = "Lorem10";
