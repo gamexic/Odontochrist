@@ -539,6 +539,26 @@ p {
 
 /* End Keyframes */
 
+@media only screen and (min-width: 768px) {
+
+    /* Contact Section */
+    
+    .contact-container .contact-top {
+        max-width: 900px;
+    }
+    .contact-container .contact-bot .contact-items-container {
+        max-width: 800px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-container .contact-bot .contact-items-container .contact-item {
+        width: 50%;
+    }
+
+    /* End Contact Section */
+
+}
+
 /* Media Query For Desktop */
 
 @media only screen and (min-width: 1200px) {
@@ -566,6 +586,19 @@ p {
 	}
 
 	/* End header */
+
+    /* Specialty Section */
+
+    .specialty-container .specialty-info {
+        flex-direction: row;
+    }
+    .specialty-container .specialty-info .specialty-info-left {
+        margin-bottom: 0px;
+        border-right: 1px solid var(--bluee);
+        padding-right: 8px;
+    }
+
+    /* End Specialty Section */
 
 }
 
