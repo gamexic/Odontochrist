@@ -297,6 +297,19 @@ p {
     text-align: start;
     margin: 8px 0px;
 }
+.services-container .services-bot .services-items-container .services-item .services-item-info h2 {
+    margin-bottom: 8px;
+}
+.services-container .services-bot .services-items-container .services-item .services-item-info a {
+    color: black;
+    border: 1px solid var(--bluee);
+    padding: 4px 8px;
+    border-radius: 25px;
+}
+.services-container .services-bot .services-items-container .services-item .services-item-info a:hover {
+    background-color: var(--bluee);
+    color: white;
+}
 
 /* End Services Section */
 
