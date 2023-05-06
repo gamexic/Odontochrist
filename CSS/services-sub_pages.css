@@ -329,16 +329,16 @@ p {
     background-color: white;
     border: 1px solid var(--bluee);
 }
-.specialties-container .all_specialties-container:hover li a {
+.specialties-container .all_specialties-container:hover li div {
     color: var(--bluee);
 }
 .specialties-container .all_specialties-container ul li:hover {
     background-color: var(--bluee);
 }
-.specialties-container .all_specialties-container ul li:hover a {
+.specialties-container .all_specialties-container ul li:hover div {
     color: white;
 }
-.specialties-container .all_specialties-container ul li a {
+.specialties-container .all_specialties-container ul li div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -596,6 +596,9 @@ p {
         margin-bottom: 0px;
         border-right: 1px solid var(--bluee);
         padding-right: 8px;
+    }
+    .specialty-container .specialty-info .specialty-info-right {
+        padding-left: 8px;
     }
 
     /* End Specialty Section */
