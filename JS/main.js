@@ -41,3 +41,21 @@ menu_item.forEach((item) => {
 
 
 /* End Nav Bar Hamburguer */
+
+/* Specialties Section */
+
+const initiator = document.getElementById("initiator-services")
+const all_services = document.querySelector(".specialties-container .all_specialties-container ul")
+const close_services = document.getElementById("close_all_services")
+
+initiator.addEventListener("click", () => {
+	all_services.style.display = "flex";
+	close_services.style.display = "flex";
+})
+
+close_services.addEventListener("mousedown", () => {
+	all_services.style.display = "none";
+	close_services.style.display = "none";
+})
+
+/* End Specialties Section */

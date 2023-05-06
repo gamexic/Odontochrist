@@ -56,7 +56,7 @@ p {
 
 
 #header {
-	position: relative;
+	position: fixed;
 	z-index: 1000;
 	left: 0;
 	top: 0;
@@ -202,6 +202,7 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    padding-top: 60px;
 }
 #hero::after {
     content: '';
@@ -229,11 +230,103 @@ p {
     font-size: 3.5rem;
     letter-spacing: .1rem;
     color: var(--white);
-    margin-bottom: 20px;
     max-width: 300px;
 }
 
 /* End Hero Section */
+
+/* Specialties Section */
+
+.specialties-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.specialties-container .all_specialties-container {
+    background-color: var(--bluee);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 16px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.specialties-container .all_specialties-container:hover {
+    border: 1px solid var(--bluee);
+    background-color: white;
+}
+.specialties-container .all_specialties-container:hover .all_specialties-container-top div h3 {
+    color: var(--bluee);
+}
+.specialties-container .all_specialties-container .all_specialties-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialties-container .all_specialties-container .all_specialties-container-top div {
+    display: flex;
+}
+.specialties-container .all_specialties-container .all_specialties-container-top div h3 {
+    color: white;
+    letter-spacing: .1rem;
+}
+.specialties-container .all_specialties-container .all_specialties-container-top div img {
+    width: 20px;
+    margin-right: 12px;
+}
+.specialties-container .all_specialties-container .all_specialties-container-top .close-all_specialties-container-top {
+    display: none;
+}
+.specialties-container .all_specialties-container .all_specialties-container-top .close-all_specialties-container-top:hover {
+    background-color: var(--bluee);
+    border-radius: 50%;
+}
+.specialties-container .all_specialties-container .all_specialties-container-top .close-all_specialties-container-top img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+}
+.specialties-container .all_specialties-container ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+}
+.specialties-container .all_specialties-container ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+.specialties-container .all_specialties-container ul li:nth-child(1) {
+    margin-top: 4px;
+}
+.specialties-container .all_specialties-container:hover li {
+    background-color: white;
+    border: 1px solid var(--bluee);
+}
+.specialties-container .all_specialties-container:hover li a {
+    color: var(--bluee);
+}
+.specialties-container .all_specialties-container ul li:hover {
+    background-color: var(--bluee);
+}
+.specialties-container .all_specialties-container ul li:hover a {
+    color: white;
+}
+.specialties-container .all_specialties-container ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.specialties-container .all_specialties-container ul li img {
+    width: 16px;
+    margin-right: 12px;
+}
+
+/* End Specialties Section */
 
 /* Keyframes */
 
