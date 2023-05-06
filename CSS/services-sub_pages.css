@@ -351,6 +351,124 @@ p {
 
 /* End Specialties Section */
 
+/* Specialty Section */
+
+#specialty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specialty-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+}
+.specialty-container h1 {
+    margin-bottom: 12px;
+}
+.specialty-container .specialty-img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 12px;
+}
+.specialty-container .specialty-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+.specialty-container .specialty-info .specialty-info-left {
+    margin-bottom: 12px;
+}
+
+/* End Specialty Section */
+
+/* Contact Section */
+
+#contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+.contact-container .contact-top {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 12px;
+}
+.contact-container .contact-top iframe {
+    width: 100%;
+    height: 450px;
+}
+.contact-container .contact-bot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container .contact-bot .contact-items-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 350px;
+}
+.contact-container .contact-bot .contact-items-container .contact-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-img img {
+    object-fit: contain;
+}
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-info {
+    border-top: 1px solid var(--bluee);
+    padding: 8px 12px 0px;
+    margin: 0px 12px;
+}
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-info:nth-child(2) h3 {
+    margin-bottom: 8px;
+}
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-info p a {
+    color:  black;
+    border: 1px solid var(--bluee);
+    padding: 4px 8px;
+}
+.contact-container .contact-bot .contact-items-container .contact-item .contact-item-info p a:hover {
+    color: white;
+    background-color: var(--bluee);
+}
+
+/* End Contact Section */
+
 /* Keyframes */
 
 @keyframes hamburger_puls {
